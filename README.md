@@ -34,3 +34,14 @@ skygini-sales-intelligence/
 
 ## Status
 Exploratory data analysis in progress.
+
+## Exploratory Data Analysis (EDA)
+
+The EDA notebook is available in `analysis/eda.ipynb`.
+
+It outlines:
+- Dataset loading
+- Basic structure and shape
+- Missing value checks
+- Initial inspection to support sales intelligence insights
+
