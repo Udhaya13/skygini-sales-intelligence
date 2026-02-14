@@ -1,34 +1,36 @@
-# SkyGeni – Sales Intelligence Challenge
+# Skygini Sales Intelligence
 
-## Overview
-This project analyzes B2B sales pipeline data to understand why win rate has declined despite healthy pipeline volume, and proposes a simple decision intelligence system for sales leadership.
+This project analyzes sales data to extract actionable insights that help improve deal conversion, revenue growth, and sales strategy.
 
-## Business Problem
-The CRO observes a drop in win rate over the last two quarters while pipeline volume remains strong.
-This indicates potential issues with deal quality, sales execution, or pipeline mix.
-The challenge is to identify where the problem lies and what actions leaders should take.
+## Dataset
+The dataset is provided as a CSV file and contains historical sales records including deal status, value, customer details, and sales activity metrics.
 
-## Key Questions
-- Where has win rate declined (by rep, product, region)?
-- Are deals taking longer to close before being lost?
-- Are certain segments driving disproportionate losses?
-- Which open deals show early risk signals?
+Location:
+data/skygini_sales_data.csv
 
-## Metrics That Matter
-- Win rate by time period
-- Win rate by sales rep and product
-- Sales cycle length
-- Loss concentration by rep
+## Objectives
+- Understand overall sales performance
+- Identify patterns in won vs lost deals
+- Analyze factors influencing deal success
+- Provide insights that support better sales decisions
 
-## Assumptions
-- Deal stages are consistently defined
-- Outcome labels are accurate
-- Sales reps own deals end-to-end
-- Sample data reflects real-world patterns
+## Project Structure
+skygini-sales-intelligence/
+│
+├── data/
+│   └── skygini_sales_data.csv
+│
+├── analysis/
+│   └── eda.ipynb
+│
+└── README.md
 
-## Contents
-- Sales data (synthetic)
-- Business insights from EDA
-- Rule-based deal risk scoring logic
-- Lightweight system design
-- Reflection on limitations
+## Tools
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+## Status
+Exploratory data analysis in progress.
