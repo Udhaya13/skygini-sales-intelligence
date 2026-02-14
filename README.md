@@ -94,5 +94,32 @@ analysis/eda.ipynb
 
 ---
 
+
+
+## Reflection
+
+### Weakest Assumptions
+The weakest assumption in this solution is that the provided sales data is complete, consistently recorded, and representative of real sales behavior. In real organizations, deal stages, outcomes, and timestamps are often inconsistently updated by sales teams, which can bias analysis and conclusions.
+
+### Production Risks
+In a real-world production environment, this approach could break due to:
+- Missing or delayed data updates from CRM systems
+- Changes in sales processes or deal stage definitions over time
+- Data quality issues such as duplicate deals or incorrect close dates
+
+Without strong data validation and monitoring, insights could become misleading.
+
+### What I Would Build Next (1 Month Roadmap)
+Given one additional month, I would:
+- Build a win-rate driver analysis using interpretable models (e.g., logistic regression or tree-based models)
+- Add deal risk scoring for open opportunities
+- Create automated alerts for sudden drops in win rate by segment (region, product, rep)
+- Implement data quality checks and anomaly detection on incoming CRM data
+
+### Least Confident Area
+The area I am least confident about is the causal interpretation of observed patterns. While EDA can surface correlations, determining true drivers of deal success or failure would require controlled experimentation, deeper behavioral data, and collaboration with sales stakeholders.
+
+---
+
 ## Author
 Udhaya R.
